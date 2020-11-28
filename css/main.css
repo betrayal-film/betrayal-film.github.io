@@ -48,7 +48,7 @@ html {
 h1 {
   text-align: center;
   font-weight: 900;
-  font-size: 4em;
+  font-size: 8em;
   text-transform: uppercase;
 }
 
@@ -130,7 +130,7 @@ img {
 }
 
 a {
-  color: #fff;
+  color: #ffa;
   text-decoration: none;
 }
 
@@ -139,13 +139,18 @@ a:hover {
   text-decoration: underline;
 }
 
+a:visited:hover {
+  color: #bbb;
+  text-decoration: underline;
+}
+
 a:visited {
-  color: #eee;
+  color: #ffc;
   text-decoration: underline;
 }
 
 a:active {
-  color: #aaa;
+  color: #bbb;
   text-decoration: underline;
 }
 
