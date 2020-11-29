@@ -1,16 +1,17 @@
 
 var totalCount = 6;
+var images = [];
 
 function preLoad() {
     for (var num = 0; num <= totalCount; num++) {
-        img = new Image();
-        img.src = "img/background-" + num + ".jpg";
+        images[num] = new Image();
+        images[num].src = "img/background-" + num + ".jpg";
     }
 }
 
 function changeImage() {
     var num = Math.ceil( Math.random() * totalCount );
-    document.documentElement.style.backgroundImage = 'url(img/background-'+num+'.jpg)';
+    document.documentElement.style.backgroundImage = "url(" + images[num].src + ")";
 }
 
 preLoad();
