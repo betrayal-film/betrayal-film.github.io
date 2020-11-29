@@ -130,23 +130,23 @@ img {
 }
 
 a {
-  color: #ffa;
-  text-decoration: none;
+  color: #f55;
+  text-decoration: underline dotted;
 }
 
 a:hover {
   color: #bbb;
-  text-decoration: underline;
+  text-decoration: underline solid;
 }
 
 a:visited:hover {
   color: #bbb;
-  text-decoration: underline;
+  text-decoration: underline solid;
 }
 
 a:visited {
-  color: #ffc;
-  text-decoration: underline;
+  color: #faa;
+  text-decoration: underline solid;
 }
 
 a:active {
