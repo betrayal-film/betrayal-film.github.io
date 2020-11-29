@@ -130,7 +130,7 @@ img {
 }
 
 a {
-  color: #f55;
+  color: #f22;
   text-decoration: underline dotted;
 }
 
@@ -145,7 +145,7 @@ a:visited:hover {
 }
 
 a:visited {
-  color: #faa;
+  color: #f55;
   text-decoration: underline solid;
 }
 
