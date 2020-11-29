@@ -37,12 +37,17 @@
 
 html {
   color: #ddd;
-  background-color: #000;
   font-size: 1em;
   line-height: 1.4;
   font-family: 'LibreFranklin', sans-serif;
   margin-left: 1em;
   margin-right: 1em;
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #000;
+  background-size: contain;
+  transition: background-image 1s;
 }
 
 h1 {
